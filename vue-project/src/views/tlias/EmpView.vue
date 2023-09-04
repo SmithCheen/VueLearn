@@ -25,7 +25,7 @@ export default {
     },
   },
   mounted() {
-    axios.get("https://yapi.pro/mock/80668/emp/list").then((result) => {
+    axios.get("https://mock.apifox.cn/m1/3128855-0-default/emp/list").then((result) => {
       this.tableData = result.data.data;
     })
   }
